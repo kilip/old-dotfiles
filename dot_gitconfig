@@ -1,0 +1,8 @@
+[init]
+	defaultBranch = main
+[user]
+	signingKey = E6B3B46F2FA481E0!
+	name = Anthonius Munthi
+	email = me@itstoni.com
+[commit]
+	gpgsign = true
