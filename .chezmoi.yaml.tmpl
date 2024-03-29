@@ -4,5 +4,5 @@ git:
   autoAdd: true
 
 age:
-  identity: {{ pass "age/secret" }}
+  identity: ~/.config/age/key.txt
   recipient: {{ pass "age/public" }}
