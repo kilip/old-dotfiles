@@ -2,3 +2,7 @@ git:
   autoCommit: true
   autoPush: true
   autoAdd: true
+
+age:
+  identity: {{ pass "age/secret" }}
+  recipient: {{ pass "age/public" }}
