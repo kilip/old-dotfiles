@@ -6,3 +6,5 @@
 	email = me@itstoni.com
 [commit]
 	gpgsign = true
+[core]
+	excludesFile = /home/toni/.gitignore
