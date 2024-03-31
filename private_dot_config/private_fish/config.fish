@@ -4,3 +4,4 @@ end
 
 
 eval "/home/linuxbrew/.linuxbrew/bin/brew shellenv"
+set -g HOMEBREW_NO_AUTO_UPDATE 1
