@@ -3,5 +3,6 @@ if status is-interactive
 end
 
 
-set -g HOMEBREW_NO_AUTO_UPDATE 1
-eval "/home/linuxbrew/.linuxbrew/bin/brew shellenv"
+if type -q brew
+  eval "/home/linuxbrew/.linuxbrew/bin/brew shellenv"
+end
