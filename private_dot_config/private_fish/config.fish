@@ -3,6 +3,6 @@ if status is-interactive
 end
 
 
-if type -q brew
+if type -q /home/linuxbrew/.linuxbrew/bin/brew
   eval "/home/linuxbrew/.linuxbrew/bin/brew shellenv"
 end
