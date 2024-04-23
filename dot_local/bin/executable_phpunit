@@ -1,5 +1,5 @@
 #!/usr/bin/sh
 
 if [ -f ./vendor/bin/phpunit ]; then
-  php ./vendor/bin/phpunit "$@"
+  exec ./vendor/bin/phpunit "$@"
 fi
