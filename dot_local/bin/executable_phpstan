@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/usr/bin/sh
 
 if [ -f ./vendor/bin/phpstan ]; then
   sh ./vendor/bin/phpstan
