@@ -1,1 +1,5 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
+
+if [ -f ./vendor/bin/phpstan ]; then
+  sh ./vendor/bin/phpstan
+fi
