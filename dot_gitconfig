@@ -8,3 +8,6 @@
 	gpgsign = true
 [core]
 	excludesFile = /home/toni/.gitignore
+
+[alias]
+    resign = "!f() { git rebase --exec 'git commit --amend --no-edit -n -S' -i \"$1\"; }; f"
