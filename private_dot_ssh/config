@@ -1,0 +1,23 @@
+Host iris
+  HostName iris.lan
+  User toni
+
+Host io
+  HostName io.lan
+  User toni
+
+Host mars
+  HostName mars.lan
+  User toni
+ 
+Host hera
+  HostName hera.lan
+  User toni
+
+Host zeus
+  HostName zeus.lan
+  User toni
+
+Host gaia
+  HostName 10.0.0.21
+  User toni
