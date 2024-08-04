@@ -12,7 +12,7 @@ Host mars
  
 Host hera
   HostName hera.lan
-  User toni
+  User root
 
 Host zeus
   HostName zeus.lan
